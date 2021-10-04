@@ -7,6 +7,7 @@ import java.util.logging.Logger;
  
 class Grafo
 {
+ //questa classe rappresenta la struttura di un grafo.
     
     class Edge {
         int src, dest, weight;
