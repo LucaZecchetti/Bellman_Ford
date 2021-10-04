@@ -93,6 +93,10 @@ class Grafo
         
     }
     
+ /* questa funzione scrive il
+
+ grafo in un file 
+ nominato output*/
     public void stampa(String output){
         try{
         File file = new File("output.txt");
