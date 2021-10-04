@@ -9,6 +9,31 @@ class Grafo
 {
  //questa classe rappresenta la struttura di un grafo.
     
+ public static void main(String[] args)
+
+    {
+
+        try{
+
+        Grafo grafo = input();
+
+        grafo.BellmanFord(grafo, 0);
+
+        }catch(Exception e){
+
+            System.out.println("errore nella lettura del file");
+
+            System.out.println(e.toString());
+
+        }
+
+        
+
+        
+
+    }
+ 
+ 
     class Edge {
         int src, dest, weight;
         Edge() {
@@ -80,18 +105,7 @@ class Grafo
     }
  
    
-    public static void main(String[] args)
-    {
-        try{
-        Grafo grafo = input();
-        grafo.BellmanFord(grafo, 0);
-        }catch(Exception e){
-            System.out.println("errore nella lettura del file");
-            System.out.println(e.toString());
-        }
-        
-        
-    }
+    
     
  /* questa funzione scrive il
 
