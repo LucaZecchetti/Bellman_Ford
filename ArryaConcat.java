@@ -1,7 +1,7 @@
 Time Complexity: O(n)
 Space Complexity: O(2*nums.length)
   //https://leetcode.com/problems/concatenation-of-array/submissions/
-
+//Soluzione Array
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int arr[]=new int[2*nums.length];
